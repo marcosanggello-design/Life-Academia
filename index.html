@@ -6,7 +6,7 @@
 <title>Life Academia — Teresina</title>
 <meta name="description" content="Life Academia em Teresina-PI: musculação, aeróbico, circuito funcional e treino de força. Conheça os planos e fale no WhatsApp.">
 <style>
-:root{--bg:#0B1014;--ink:#050709;--cy:#27ADC6;--cy2:#1C8498;--deep:#095769;--w:#fff;--g:#D9E2E6;--line:rgba(217,226,230,.14);color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#0B120E;--ink:#050906;--cy:#22C55E;--cy2:#15803D;--deep:#14532D;--orange:#F97316;--orange2:#C2410C;--w:#fff;--g:#D9E2E6;--line:rgba(217,226,230,.14);color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
 body{margin:0;background:var(--bg);color:var(--g);font:400 1rem/1.6 system-ui,"Segoe UI",Roboto,Arial,sans-serif;overflow-x:hidden}
@@ -67,7 +67,7 @@ nav a:hover{color:var(--cy)}
 .plan{display:flex;flex-direction:column;background:var(--ink);border:1px solid var(--line);border-radius:22px;padding:1.8rem;transition:transform .25s,border-color .25s}
 .plan:hover{transform:translateY(-4px);border-color:var(--cy)}
 .plan.hot{border:2px solid var(--cy)}
-.tag{align-self:flex-start;background:var(--cy);color:var(--ink);font-weight:800;font-size:.78rem;padding:.25rem .7rem;border-radius:999px;margin-bottom:.8rem}
+.tag{align-self:flex-start;background:var(--orange);color:var(--ink);font-weight:800;font-size:.78rem;padding:.25rem .7rem;border-radius:999px;margin-bottom:.8rem}
 .plan h3{font-size:1.25rem}
 .price{font:900 clamp(2.4rem,7vw,3.2rem)/1.1 "Arial Black",system-ui;color:var(--w);margin:1rem 0 .3rem}
 .price small{font-size:1.1rem;color:var(--cy)}
@@ -104,10 +104,10 @@ h2{background:linear-gradient(180deg,#fff 45%,#9fdbe8);-webkit-background-clip:t
 .o1{width:420px;height:420px;right:-120px;top:-80px;background:rgba(39,173,198,.35);--k:.25;animation:fl 9s ease-in-out infinite alternate}
 .o2{width:320px;height:320px;left:-100px;bottom:-60px;background:rgba(9,87,105,.6);--k:-.15;animation:fl 12s ease-in-out infinite alternate-reverse}
 @keyframes fl{to{opacity:.6;scale:1.15}}
-.hero h1 span{background:linear-gradient(90deg,var(--cy),#8FE7F7,var(--cy));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 6s linear infinite;filter:drop-shadow(0 0 18px rgba(39,173,198,.5))}
+.hero h1 span{background:linear-gradient(90deg,var(--cy),var(--orange),var(--cy));background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 6s linear infinite;filter:drop-shadow(0 0 18px rgba(34,197,94,.5))}
 @keyframes sh{to{background-position:-200% 0}}
 .ecg .pulse{filter:drop-shadow(0 0 6px var(--cy))}
-.btn{position:relative;overflow:hidden;background:linear-gradient(135deg,#5fd3e8,var(--cy) 45%,var(--cy2));border-color:transparent;box-shadow:0 8px 24px -8px rgba(39,173,198,.7),inset 0 1px 0 rgba(255,255,255,.35)}
+.btn{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--orange),var(--cy) 55%,var(--cy2));border-color:transparent;box-shadow:0 8px 24px -8px rgba(34,197,94,.7),inset 0 1px 0 rgba(255,255,255,.35)}
 .btn::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 35%,rgba(255,255,255,.55) 50%,transparent 65%);transform:translateX(-120%);transition:transform .6s}
 .btn:hover::after{transform:translateX(120%)}
 .btn:hover{background:linear-gradient(135deg,#fff,#d9f6fb);box-shadow:0 10px 30px -6px rgba(39,173,198,.9)}
@@ -121,7 +121,7 @@ h2{background:linear-gradient(180deg,#fff 45%,#9fdbe8);-webkit-background-clip:t
 .plan{background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.015));backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.12);box-shadow:0 24px 50px -24px #000,inset 0 1px 0 rgba(255,255,255,.12)}
 .plan::before,.panel::before,.mod .big::before{content:"";position:absolute;inset:0;z-index:-1;opacity:0;transition:opacity .3s;background:radial-gradient(320px circle at var(--mx,50%) var(--my,0),rgba(39,173,198,.28),transparent 60%)}
 .plan:hover::before,.panel:hover::before,.mod .big:hover::before{opacity:1}
-.plan.hot{background:linear-gradient(160deg,rgba(39,173,198,.22),rgba(9,87,105,.18) 60%,rgba(5,7,9,.6));border:1.5px solid var(--cy);box-shadow:0 0 0 1px rgba(39,173,198,.3),0 24px 60px -18px rgba(39,173,198,.55);animation:gl 4s ease-in-out infinite alternate}
+.plan.hot{background:linear-gradient(160deg,rgba(249,115,22,.22),rgba(20,83,45,.18) 60%,rgba(5,7,9,.6));border:1.5px solid var(--orange);box-shadow:0 0 0 1px rgba(249,115,22,.3),0 24px 60px -18px rgba(249,115,22,.55);animation:gl 4s ease-in-out infinite alternate}
 @keyframes gl{to{box-shadow:0 0 0 1px rgba(39,173,198,.5),0 30px 80px -14px rgba(39,173,198,.8)}}
 @media(min-width:860px){.plan.hot{transform:translateY(-14px)}.plan.hot:hover{transform:translateY(-18px)}}
 .price{background:linear-gradient(180deg,#fff,#9fdbe8);-webkit-background-clip:text;background-clip:text;color:transparent}
